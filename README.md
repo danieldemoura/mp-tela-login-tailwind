@@ -22,7 +22,6 @@ Você foi contratado por uma empresa de desenvolvimento de software para criar a
 
 ![image](https://github.com/codante-io/mp-tela-login-tailwind/assets/6475893/914bc33a-ed2a-4720-bf3a-f2c2d9eb41a8)
 
-
 ## 📝 Mockups
 ![Screenshot_2023-05-06_134731-removebg-preview](https://user-images.githubusercontent.com/6475893/236636789-b03715d5-7010-4e46-af97-b4a901d0fe63.png)
 
@@ -30,3 +29,8 @@ Você foi contratado por uma empresa de desenvolvimento de software para criar a
 - https://dribbble.com/shots/5792716-Login-page
 - https://dribbble.com/shots/3546598-Sign-In
 - https://www.youtube.com/watch?v=t-EMinSz_Tk
+
+
+## 🎨 Design criado por mim
+
+![image](./.github/preview.png)

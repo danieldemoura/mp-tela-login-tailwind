@@ -1,0 +1,16 @@
+{
+  "name": "mp-tela-login-tailwind",
+  "version": "1.0.0",
+  "description": "Você foi contratado por uma empresa de desenvolvimento de software para criar a tela de login mais bonita do mundo usando o framework Tailwind CSS. A empresa deseja proporcionar uma experiência visualmente agradável aos usuários ao fazerem login em seus sistemas.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i styles.css -o src/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "tailwindcss": "^3.4.13"
+  }
+}

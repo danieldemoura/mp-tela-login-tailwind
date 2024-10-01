@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+	.input {
+		@apply px-3 py-4 2xl:mt-[18px] rounded-xl bg-black border border-[#40404090] outline-none text-gray-300 placeholder:text-[#9CA3AF80] placeholder-shown:bg-black/70 hover:ring hover:ring-[#876d2170] focus:ring focus:ring-[#ffbe00] shadow-[inset_2px_2px_2px_#00000030] 2xl:shadow-[inset_3px_4px_8px_#00000030] focus:bg-black;
+	}
+}
+
+.glass {
+	@apply before:block before:w-full before:w-full before:h-full before:absolute before:left-0 before:top-0 before:z-[-2] before:bg-[#00000060] before:backdrop-blur-[40px];
+}

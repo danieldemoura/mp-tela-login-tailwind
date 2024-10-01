@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tela de Login</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./src/css/styles.css"/>
+</head>
+<body class="bg-[#0E0D10] bg-[url('../img/bg-3.jpg')] bg-no-repeat bg-cover font-Enconde-Sans animate-bgSlide">
+	<main class="relative lg:w-1/2 h-full 2xl:h-screen px-[16px] sm:px-[70px] md:px-[120px] lg:px-[60px] xl:px-[100px] 2xl:px-[166px] py-[60px] glass">
+		<header class="flex items-center gap-[20px] md:gap-[36px]">
+			<img class="w-[50px] lg:w-[60px] h-[50px] lg:h-[60px] rounded-full" src="./src/img/user.jpg" alt="" />
+			<h1 class="text-gray-200 text-[2rem] md:text-[2.5rem] 2xl:text-4xl md:text-5.5xl font-bold">Faça seu login</h1>
+		</header>
+		<form method="GET">
+			<label class="flex flex-col mt-[66px] mb-[57px]">
+				<span class="text-gray-300">Email</span>
+				<input class="input mt-[8px] focus:shadow-[0px_0px_20px_10px_#876d2170]" type="email" name="email" placeholder="Digite o seu email" required />
+			</label>
+
+			<label class="flex flex-col">
+				<span class="text-gray-300">Senha</span>
+				<input class="input mt-[8px] focus:shadow-[0px_0px_20px_10px_#876d2170]" type="password" name="password" placeholder="Digite a sua senha" minlength="8" required />
+			</label>
+
+			<a class="block text-gray-400 text-right hover:underline w-fit ml-auto mt-[24px] mb-[32px]" href="#">Esqueci minha senha</a>
+			<button class="block w-full bg-gradient-to-tr from-[#CC7A33] hover:from-[#cf680f] to-[#C88E5B] hover:to-[#c49872] transition-all duration-400 rounded-xl text-black text-[24px] 2xl:text-[38px] text-center font-bold py-[12px] 2xl:py-[20px] hover:shadow-[0px_0px_10px_#CC7A33]" type="submit">ENTRAR</button>
+
+			<div class="flex gap-[40px] mt-[36px]">
+				<a class="flex flex-grow items-center justify-center gap-[16px] block bg-[#72622710] hover:bg-[#5659032e] transition-all duration-100 border border-[#726227] hover:border-[#917200] text-gray-200 rounded-xl text-[20px] 2xl:text-[24px] 2xl:text-[38px] text-center font-medium py-[16px] 2xl:py-[20px]" href="#">
+					<img src="src/img/google.svg" alt="" />
+					Google
+				</a>
+				<a class="flex flex-grow items-center justify-center gap-[16px] block bg-[#72622710] hover:bg-[#5659032e] transition-all duration-100 border border-[#726227] hover:border-[#917200] text-gray-200 rounded-xl text-[20px] 2xl:text-[24px] 2xl:text-[38px] text-center font-medium py-[16px] 2xl:py-[20px]" href="#">
+					<img src="src/img/apple.svg" alt="" />
+					Apple
+				</a>
+			</div>
+		</form>
+		<span class="block text-gray-400 text-center mt-[40px]" href="#">
+			Ainda não tem uma conta? <a class="font-bold hover:underline" href="#">Criar conta</a>
+		</span>
+	</main>
+
+	<script src="./src/script.js"></script>
+</body>
+</html>
